@@ -1,0 +1,28 @@
+.cylender-power{
+    position: absolute;
+    width: 90svh;
+    height: 70vh;
+    right: -350px;
+    border-start-start-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    transform: rotate(30deg);
+    background: var(--amber-400-color);
+}
+@media (min-width:576px) {
+    .cylender-power{
+        width: 100svh;
+        height: 70vh;
+        right: -300px;
+    }
+}
+@media (min-width:992px) {
+    .cylender-power{
+    width: 55%;
+    height:75vh;
+    right: -250px;
+    top: 90px;
+    }
+    .img-power{
+        margin-left: 70px;
+    }
+}

@@ -1,0 +1,36 @@
+.get-seller-circle{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 9999px;
+    top: -200px;
+    right: -100px;
+    background: var(--amber-500-color);
+}
+.get-seller-circle-purple{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 9999px;
+    bottom: -300px;
+    left: 100px;
+    background: var(--purple-500-color);
+}
+.get-seller-circle-purple-sm{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 9999px;
+    bottom: -200px;
+    left: -200px;
+    background: var(--purple-500-color);
+}
+.get-seller-circle-blue{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 9999px;
+    bottom: -300px;
+    right: -200px;
+    background: var(--blue-400-color);
+}

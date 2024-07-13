@@ -1,0 +1,15 @@
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    top: 30px;
+    right: 60px;
+}
+.oval{
+    width: 200px;
+    height:300px;
+    transform: rotate(-30deg);
+    border-radius: 9999px;
+    bottom: 20px;
+    right: 70px;
+}
