@@ -1,7 +1,7 @@
 .cylender-power{
     position: absolute;
-    width: 90svh;
-    height: 70vh;
+    width: 85svh;
+    height: 28%;
     right: -350px;
     border-start-start-radius: 9999px;
     border-bottom-left-radius: 9999px;
@@ -11,7 +11,7 @@
 @media (min-width:576px) {
     .cylender-power{
         width: 100svh;
-        height: 70vh;
+        height: 28%;
         right: -300px;
     }
 }
