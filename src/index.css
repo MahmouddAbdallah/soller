@@ -43,6 +43,12 @@
 .bg-amber-100-color{
     background: var(--amber-100-color);
 }
+.bg-amber-400-color{
+    background: var(--amber-400-color);
+}
+.bg-amber-500-color{
+    background: var(--amber-500-color);
+}
 .bg-purple-900-color{
     background: var(--purple-900-color);
 }
@@ -67,7 +73,12 @@
 .text-xl{
     font-size: 50px;
 }
-
+.storke-white{
+    stroke: white;
+}
+.fill-white{
+    fill: white;
+}
 @media (min-width:576px) {
 }
 @media (min-width:768px) {
@@ -84,4 +95,34 @@
 
 .text-lg-2xl{
     font-size: normal;
+}
+
+.right-to-left{
+    display: block;
+    animation: right-to-left-aim .5s forwards;
+}
+@keyframes right-to-left-aim{
+    0%{
+        transform: translateX(100%);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+.left-to-right{
+    display: none;
+    animation: left-to-right-aim .5s forwards;
+}
+
+@keyframes left-to-right-aim{
+    0%{
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+    100%{
+        transform: translateX(100%);
+        opacity: 0%;
+    }
 }

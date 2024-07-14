@@ -4,12 +4,12 @@ const Footer = () => {
     return (
         <footer>
             <div className='container '>
-                <div className="py-4 d-flex justify-content-between">
+                <div className="py-4 d-flex justify-content-between align-items-center">
                     <div className='d-flex align-items-center gap-3'>
                         <img src={logo} alt="" />
                         <span className='d-none d-md-block'>@ 2023 Soller, Inc. All rights reserved.</span>
                     </div>
-                    <ul className='d-flex gap-3 list-unstyled'>
+                    <ul className='d-flex gap-3 list-unstyled py-0 my-0'>
                         <li>Terms</li>
                         <li>Privacy</li>
                         <li>Support</li>
