@@ -57,7 +57,7 @@ const Navbar = () => {
                         <button onClick={() => { setOpen(!open) }} className='border-none amber-bg menu-btn rounded-full'>
                             <MenuIcon />
                         </button>
-                        <div className={`d-lg-none position-fixed end-0 top-0 h-100 w-50 z-50 bg-amber-400-color d-flex flex-column justify-content-between ${open ? 'right-to-left' : 'left-to-right'}`}>
+                        <div className={`d-lg-none position-fixed end-0 top-0 h-100 w-75 z-50 bg-amber-400-color d-flex flex-column justify-content-between ${open ? 'right-to-left' : 'left-to-right'}`}>
                             <ul className='list-unstyled w-100 pt-5'>
                                 {items.map(item => {
                                     return <li
