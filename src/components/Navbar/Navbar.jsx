@@ -11,6 +11,7 @@ const Navbar = () => {
         const handleClose = (e) => {
             if (eleRef.current && !eleRef.current.contains(e.target)) {
                 setOpen(false)
+                document.body.style.overflowY = 'auto'
             }
         }
         document.addEventListener('click', handleClose)
@@ -54,7 +55,10 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div ref={eleRef} className='d-lg-none z-50'>
-                        <button onClick={() => { setOpen(!open) }} className='border-none amber-bg menu-btn rounded-full'>
+                        <button onClick={() => {
+                            document.body.style.overflowY = 'hidden'
+                            setOpen(!open)
+                        }} className='border-none amber-bg menu-btn rounded-full'>
                             <MenuIcon />
                         </button>
                         <div className={`d-lg-none position-fixed end-0 top-0 h-100 w-75 z-50 bg-amber-400-color d-flex flex-column justify-content-between ${open ? 'right-to-left' : 'left-to-right'}`}>
