@@ -9,7 +9,7 @@ const GetSeller = () => {
             <div className='get-seller-circle-purple d-none d-lg-block' />
             <div className='get-seller-circle-purple-sm d-lg-none' />
             <div className='get-seller-circle-blue d-none d-lg-block' />
-            <div className='container z-50'>
+            <div className='container z-50 '>
                 <div className=' py-lg-5 d-flex flex-column align-items-center d-lg-block '>
                     <p className="amber-300-color-text fw-medium z-50">Get the Sun to power your home</p>
                     <div className="row z-50">
@@ -26,7 +26,7 @@ const GetSeller = () => {
                         </div>
                     </div>
                 </div>
-                <div className='px-3 px-lg-5 '>
+                <div className='px-3 px-lg-5 mt-5'>
                     <img className='w-100 ' src={macbook} alt="" />
                 </div>
             </div>
